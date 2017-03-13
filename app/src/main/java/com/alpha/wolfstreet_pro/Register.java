@@ -115,7 +115,7 @@ public class Register extends AppCompatActivity {
                                     ref.child(uid).setValue(person);
                                     Toast.makeText(Register.this, "Database added",
                                             Toast.LENGTH_SHORT).show();
-                                    startActivity(new Intent(Register.this, TempActivity.class));
+                                    startActivity(new Intent(Register.this, MainActivity.class));
                                     finish();
                                 }
                             }
