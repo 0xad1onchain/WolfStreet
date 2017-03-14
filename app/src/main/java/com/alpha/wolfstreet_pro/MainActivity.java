@@ -30,14 +30,14 @@ public class MainActivity extends AppCompatActivity {
      * may be best to switch to a
      * {@link android.support.v4.app.FragmentStatePagerAdapter}.
      */
-    private SectionsPagerAdapter mSectionsPagerAdapter;
-    private FirebaseAuth auth;
-    private FirebaseAuth.AuthStateListener authListener;
+    public SectionsPagerAdapter mSectionsPagerAdapter;
+    public FirebaseAuth auth;
+    public FirebaseAuth.AuthStateListener authListener;
 
     /**
      * The {@link ViewPager} that will host the section contents.
      */
-    private ViewPager mViewPager;
+    public ViewPager mViewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
